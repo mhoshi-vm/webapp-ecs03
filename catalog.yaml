@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-to-ecs-webapp
+  annotations:
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/part-of=webapp'
+spec:
+  type: service
+  lifecycle: unknown
+  owner: guests
